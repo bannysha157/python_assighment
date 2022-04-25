@@ -1,0 +1,34 @@
+1)len()function using fing length of the list
+
+a="freedom"
+print(len(a))
+#o/p=7
+
+n=len([10,20,30])
+print("the length of list is:", n)
+#o/p=3
+
+2)Naive method(or)loop using find the length of list
+
+#length of list
+#using loop
+
+#function
+def list_length(list):
+    counter=0
+    for i in list:
+        counter=counter+1   
+    return counter
+
+# Initializing list 
+li = [ 1, 4, 5, 7, 8 ]
+  
+# Printing list
+print ("List : ",li)
+ 
+# Printing length of list 
+print ("Length of list using naive method is : ",list_length(li))
+
+#o/p
+List :  [1, 4, 5, 7, 8]
+Length of list using naive method is :  5
