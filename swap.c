@@ -15,3 +15,5 @@ pos2= 5
 
 print(l)
 print("Swapped list: ",swapList(l,pos1-1,pos2-1))
+#o/p=[10, 14, 5, 9, 56, 12]
+Swapped list:  [10, 56, 5, 9, 14, 12]
