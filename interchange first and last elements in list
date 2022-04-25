@@ -1,0 +1,21 @@
+
+program:
+list = []
+n = int(input("Enter the number of elements in list:"))
+for x in range(0, n):
+    element = input("Enter element:")
+    list.append(element)
+print("Your current list is:", list)
+temp = list[0]
+list[0] = list[n-1]
+list[n-1] = temp
+print("New list is:", list)
+
+#Output:
+Enter the number of elements in list:4
+Enter element:1
+Enter element:2
+Enter element:3
+Enter element:4
+Your current list is: ['1', '2', '3', '4']
+New list is: ['4', '2', '3', '1']
