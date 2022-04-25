@@ -1,0 +1,61 @@
+Python provides its users multiple ways to perform a task, and for finding the maximum of two number, we have these methods,
+
+1)Using if-else statement
+2)Using max() function
+3)Using lambda function to get max of two numbers in python
+
+1)using  IF_ELSE statement
+#Program to print maximum number using if-else ladder:
+# Python program to return maximum of two numbers
+
+# Getting input from user
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+
+# printing the maximum value
+if(num1 > num2):
+  print(num1, "is greater")
+elif(num1 < num2):
+    print(num2, "is greater")
+else:
+    print("Both are equal")
+#Output:
+Enter the first number: 12
+Enter the second number: 34
+34 is greater
+
+
+2) Find maximum of two numbers using max() function:
+max() function:
+The max() function in Python is used to return the maximum of all the elements passed as arguments.
+
+# Python program to return maximum of two numbers
+# input from user
+num1 = int(input("Enter the num1: "))
+num2 = int(input("Enter the num2: "))
+# printing the maximum value
+maxVal = max(num1, num2)
+print("The maximum of all values is", maxVal)
+#Output:
+Enter the num1: 12
+Enter the num2: 34
+The maximum of all values is 34
+
+
+
+3)Using lambda function to get max of two numbers in python:
+
+LAMBDA:A lambda is an anonymous function, and it takes any number of arguments. But the expression is only one.
+Syntax:lambda arguments : expression
+program:
+a=int(input("Enter a number: "))
+b=int(input("Enter a number: "))
+maximum = lambda a,b:a if a > b else b
+print(f'{maximum(a,b)} is a maximum number')
+
+#o/p=Enter the first number: 3
+Enter the second number: 2
+3 is greater
+
+
+
