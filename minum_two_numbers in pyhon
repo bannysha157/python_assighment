@@ -1,0 +1,48 @@
+Find max()and min():
+x=["abc","abcd","abcde","b"]
+y = "abc"
+print(max(x))
+print(min(x))
+print(max(y))
+print(min(y))
+
+#o/p
+b
+abc
+c
+a
+
+example2:
+
+def minimum(a,b):
+    num=min(a, b)
+    return num
+a=20
+b=50
+print(f'{minimum(a,b)} is a minimum number')
+#o/p=20
+
+3)using lambda function to get minimum of number in python:
+
+a = int(input("enter a number:"))
+b = int(input("enter a number:"))
+minimum = lambda a,b :a if a<b else b
+print(f'{minimum(a,b)}is minimum number')
+#o/p=enter a number:12
+enter a number:13
+12 is minimum number
+
+
+4)how to get a minimum between three numbers:
+
+def minimum(a,b,c):
+    num=min(a,b,c)
+    return num
+a=50
+b=30
+c=70
+print(f'{minimum(a,b,c)} is a minimum number')
+#o/p=30 is minimum number
+
+
+
