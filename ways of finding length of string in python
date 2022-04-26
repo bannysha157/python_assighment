@@ -1,0 +1,43 @@
+1)using len():
+2)using for loop():
+
+
+1)using len()function:
+
+string = "Arveni"
+print(len(string))
+ 
+# with tuple
+tup = (1,2,3)
+print(len(tup))
+ 
+# with list
+l = [1,2,3,4]
+print(len(l))
+ #p/p
+ 6
+ 3
+ 4
+
+2)using for loop()
+def stringLength(str):
+    count = 0
+    for i in str:
+        count += 1
+    return count
+str = 'freedom'
+print(stringLength(str))
+#o/p=7 because freedom consists 7 
+3)using while loop()
+# length of string using while loop
+  
+def stringLength(str): 
+    count = 0
+    while str[count:]: 
+        count += 1
+    return count 
+    
+str = "freedom"
+print(stringLength(str))
+
+#o/p=7 means freedom consists 7
